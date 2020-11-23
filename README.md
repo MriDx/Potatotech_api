@@ -3,9 +3,9 @@
 ## Setup
 
 ```bash
-git clone https://github.com/mridx/potatotech_api.git
+git clone https://github.com/MriDx/Potatotech_api.git
 
-cd potatotech_api
+cd Potatotech_api
 
 npm i
 
@@ -20,6 +20,7 @@ adonis key:generate
 ```
 
 add database name and password to `.env` file
+and set `DB_CONNECTION` to `mysql`
 
 ```bash
 adonis migration:run
